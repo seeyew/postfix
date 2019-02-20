@@ -112,12 +112,12 @@ def process_cycle(cycle, dataset):
     '''
     if cycle:
         rows, columns = map(list, \
-            zip(*[datahelper.get_index_by_alphanumeric(v) for v in cycle]))
+            zip(*[datahelper.get_row_column_by_alphanumeric(v) for v in cycle]))
         dataset[np.array(rows), np.array(columns)] = datahelper.ERROR_VALUE
 
 # def generate_tuples(cycle):
 #     for v in cycle:
-#          yield datahelper.get_index_by_alphanumeric(v)
+#          yield datahelper.get_row_column_by_alphanumeric(v)
 
 def eval_postfix(text):
     """ This function evaluates the post fix operations
