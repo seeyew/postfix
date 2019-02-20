@@ -26,13 +26,13 @@ The data is processed through several steps. In the future, we can make a pipeli
 7. Save the result into datafiles/<inputfile name>.result
   
 # File Structure
-main.py - the backbone of the project. This is where most logic resides. 
-datahelper.py - a file with helper methods.
-run.sh - bash file that runs various input files.
-data_generator.py - a helpful tool that allows me to generate input files.
-requirements.txt - A list of required dependecies generated using pigar.
-test.py - file for future unit tests!
-datafiles - folder that contains input and validation files. Output files are saved in this folder.
+1. main.py - the backbone of the project. This is where most logic resides. 
+2. datahelper.py - a file with helper methods.
+3. scripts/run.sh - bash file that runs various input files in the scripts folder.
+4. datafiles - folder that contains input and validation files. Output files are saved in this folder.
+5. datafiles/data_generator.py - a helpful tool that allows me to generate input files.
+6. requirements.txt - A list of required dependecies generated using pigar.
+7. test.py - file for future unit tests!
 
 # Considerations
 1. Using Pandas DataFrame because I like their functionalities in dealing with messsy and missing data.
