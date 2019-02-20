@@ -12,8 +12,8 @@ You can run the following command:
  python3 main.py -i inputfilename.csv -t validatinfilename.csv
 ```
 
--i is for the inputfile name. If none is entered, we default to datafiles/input.csv
--t is for the validation file name. If none is entered and not custom inputfile is provided, we default to datafiles/validate_output.csv
+- ***-i*** is for the input filename. If none is entered, we default to datafiles/input.csv
+- ***-t*** is for the validation filename. If none is entered and not custom inputfile is provided, we default to datafiles/validate_output.csv
 
 For more examples, you can look at ***scripts/run.sh***. You can run that file by typing in bash run.sh in your terminal.
 
