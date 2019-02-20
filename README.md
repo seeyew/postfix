@@ -3,17 +3,19 @@
 This project processes cvs file and evaluate each cell's with a postfix processor.
 
 ## Dependencies
-The required depdencies are stored in requirements.txt. Download them with
-  pip install -r requirements.txt
+1. Python Version - Python 3.6.5 :: Anaconda, Inc.
+2. The required depdencies are stored in requirements.txt. Download them with pip install -r requirements.txt
 
 ## Run the code:
 You can run the following command:
-  python3 main.py -i inputfilename.csv -t validatinfilename.csv
+```
+ python3 main.py -i inputfilename.csv -t validatinfilename.csv
+```
 
 -i is for the inputfile name. If none is entered, we default to datafiles/input.csv
 -t is for the validation file name. If none is entered and not custom inputfile is provided, we default to datafiles/validate_output.csv
 
-For more examples, you can look at ***run.sh***. You can run that file by typing in bash run.sh in your terminal.
+For more examples, you can look at ***scripts/run.sh***. You can run that file by typing in bash run.sh in your terminal.
 
 # Design
 The data is processed through several steps. In the future, we can make a pipeline out of this. The steps are:
